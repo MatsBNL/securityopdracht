@@ -1,1 +1,5 @@
 # securityopdracht
+Hallo voor securit3 om dus te kijken naar mijn project die gehost is gebruik deze link https://devopsvanmats.nl/ 
+Het eerste De gehoste applicatie zodanig is geconfigureerd dat snooping en session hijacking  wordt voorkomen. dit heb ik gedaan door te zorgen dat mijn online omgeving https connectie gebruikt wat zorgt dat de connectie veilig is en dus snooping en sension hijacking voorkomt word dit kan je testen om dus op de site te kijken of het https gebruikt.Verder heb ik ook ervoor gezorgd door twee lijnen in de .htacces file teveranderen dat alles via https moet want als je dus het zou veranderen naar http accepteerd die dat niet en maakt die er meteen https van. Dit kan je testen door naar de file te kijken en http proberen te doen.
+
+Nu wil ik dus IDOR voorkomen dit heb ik gedaan door te zorgen dat je alleen in de articels crud kan wanneer je ingelogd bent dit kan je testen door dus mijn url/articles te doen zonder dat je ingelogd bent dan zie je meteen dat je terug gegooid word naar de inlogpagina. Dus alleen mensen die ingelogd zijn en dus geauthenticeerd zijn je kan ook naar de file web.php kijken voor hoe ik het heb toegepast.
